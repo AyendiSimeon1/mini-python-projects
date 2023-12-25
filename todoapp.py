@@ -50,7 +50,8 @@ def main():
             print("These are all the tasks available")
         
         elif choice == "3":
-            app.deleteTask()
+            index = input()
+            app.deleteTask(input)
         
         elif choice == "4":
             break
