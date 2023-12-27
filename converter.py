@@ -17,5 +17,6 @@ def main():
 
     print(f"{amount} in {from_currency} to {to_currency} is {converted_amount}")
 
+
 if __name__ == "__main__":
     main()
